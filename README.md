@@ -1,2 +1,1 @@
-# personal-site
-Personal Website
+Static page files: .page, .page.conf

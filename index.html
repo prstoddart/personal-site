@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Patrick Stoddart</title>
+	<link rel="Shortcut Icon" href="http://prstoddart.s3.amazonaws.com/aboutme/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.2; }
+		}
+		h1 {
+			font-family:Helvetica;
+			font-size:42px;
+			font-weight:200;
+			line-height:normal;
+			margin:0px 0px 20px 0px;
+			padding:0 0 0 0;
+			color:#FFF;
+		}
+	</style>
+</head>	
+    
+<body>
+
+<!-- swap out for a logo -->
+<div id="monogram">
+	<img src="monogram.png" />
+</div>
+
+<!-- swap out for information about yourself -->
+<div id="about">
+	<h1>Patrick Stoddart</h1>
+	<p>
+		Patrick is the founder and CEO of <a href="http://revdel.com" target="_blank">Revdel</a>, a software development firm offering <a href="http://redalerts.co" target="_blank">RED</a> -- an interactive communications platform for schools, churches and government, located in Kansas City, Missouri. He's also working nights and weekends on <a href="http://phone2action.com" target="_blank">Phone2Action</a>, a comprehensive platform for political advocacy groups to boost their reach and impact.
+	</p>
+	<p>
+		<!--He's just begun <a href="http://prstoddart.com/blog">blogging</a>, and still posts the occasional <a href="http://twitter.com/prstoddart" target="_blank">tweet</a>. He's also a <a href="http://www.pipelineentrepreneurs.com/members/patrick-stoddart/" target="_blank">Pipeline fellow</a> and a contributor to <a href="2billionunder20.com/patrick" target="_blank">2BillionUnder20</a>.-->
+		He posts the occasional <a href="http://twitter.com/prstoddart" target="_blank">tweet</a>, is a <a href="http://www.pipelineentrepreneurs.com/members/patrick-stoddart/" target="_blank">Pipeline fellow</a>, and contributes to <a href="2billionunder20.com/patrick" target="_blank">2BillionUnder20</a>.
+	</p>
+	<p>
+		A native of Kansas, Patrick has lived all over the Midwest, and has most recently settled back in Kansas City, though on the Missouri side now.<br />
+		Connect with him at prstoddart (at) gmail (dot) com.
+	</p>
+	<p>
+		Oh yeah, and that's his mom in the picture.<br />She's awesome.
+	</p>
+</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("bg.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
+</html>
